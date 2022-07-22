@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.notes{
+    background-color: #FFFFE9;
+    
+}
+.newNote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    
+    
+}
+.title{
+    border-radius: 0.5em 0.5em 0 0;
+    width: 39vw;
+    height: 5vh;
+    margin: 0;
+}
+
+ 
+
+.description{
+    
+    width: 39vw; 
+    height: 15vh;
+    text-align: center;
+    font-size: 3vh;
+   
+}
+
+.addNote{
+    font-size: 1.8vh;
+    border-radius: 0 0 1em 1em;
+    width: 40vw;
+    height: 5vh;
+    background-color: #017979;
+    color: aliceblue;
+}

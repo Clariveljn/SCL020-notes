@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #017979;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 13vh;
+    margin: 2vh;
+}
+
+.navbar .link{
+    margin: 3vh;
+    width:7vh;
+
+}
+
+.link {
+    margin: 5vh; 
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 4vh;
+    
+
+}

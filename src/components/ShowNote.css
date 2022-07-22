@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #FFFFE9;
+    
+}
+
+.showCards {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    display:flex;
+    flex-direction:column;
+    margin: 2vh;
+    width:40vw
+}
+
+.cards input {
+    margin: 0;
+
+}
+
+
+
+button {
+    width: 49%;
+    margin:0;
+}
+
+.title {
+    text-align: center;
+    border: solid #017979;
+    font-size: 2.5vh;
+}
+
+.description {
+    border: solid 2px #017979;
+    font-size: 2vh;
+}
+
+.edit, .delete {
+    border-radius: 0 0 0 0.5em;
+    background-color: #84d3d3;
+    height: 5vh;
+    font-size: 2vh;
+    width: 50%;
+}
+
+.delete {
+    border-radius: 0 0 0.5em 0; 
+}
+
+.imgBtn{
+    width: 3vh;
+}
+
